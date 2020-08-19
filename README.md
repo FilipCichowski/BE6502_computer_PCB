@@ -4,9 +4,7 @@
 ## Computer (SBC-module)
 This module specifically contains all of the modules that makes the BE6502 an actual computer, it has the CPU, RAM, ROM and a way of interacting with the world using the VIA-chip. Also described as an SBC-module which means that it is a *Single Board Computer* though I'm certainly a fan of building more things around it, I just look at it has giving the computer more tricks that it can use to both entertain and educate us at the same time.
 
-The picture above shows an assembled and currently running version of the SBC-module (without LCD attached), here I used a female pin header so that the clock module could be slotted directly into place alongside it. I did however change this to use dupont-cables later, this was because the boards separated too easily without having a plate to screw everything into at the moment
-
-As you can see from the big shiny thing, I've also got the 1 Mhz oscillator installed as it is listed in Ben Eaters design though it is not connected by default so that the adjustable or manual clock can be used instead - to enable the 1 Mhz clock you'll need to install a jumper as shown below.
+As you can see, I've also got the 1 Mhz oscillator installed as it is listed in Ben Eaters design though it is not connected by default so that the adjustable or manual clock can be used instead - to enable the 1 Mhz clock you'll need to install a jumper as shown below.
 
 I did however have some issues running the CPU reliably at this speed, this is due to the reset circuit specified not being suitable for use at anything other than very low speeds. While we're probably waiting for part 8 of the video series to fix this issue, you can build one yourself on a breadboard with just about the same parts seen earlier in the series.
 
