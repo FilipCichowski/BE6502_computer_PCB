@@ -33,3 +33,9 @@ The supplied KiCad files should be sufficient as both a schematic and as a start
 *) R18 was added to SBC revision B boards as I had forgotten to add the pull-up for the BE-line, causing instability on the boards due to it floating around. Refer to this [picture](https://github.com/tebl/BE6502-Build-a-65c02-computer/raw/master/gallery/2020-02-16%2015.50.14-1.jpg) for a convenient spot to add it to revision A boards.
 
 When constructing the board I recommend using 60/40 solder as the lead-free is more trouble than it's worth for hobby use, take your time with it and try to build up the board starting with the lowest components before moving on to the larger pieces. The LCD will be mounted on top of other components, so check that nothing shorts on the underside and unless you're 100% sure about the construction and my design - install some female header pins on it so that you can easily remove it while troubleshooting the circuit underneath!
+
+# PCB
+I created PCB using Topor Lite autorouter. "autoroute" folder contain necessary files. 
+
+# Authors
+I've just created better PCB. Original KiCad files belongs to tebl. Link to his profile: https://github.com/tebl
