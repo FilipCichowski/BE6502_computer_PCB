@@ -1,7 +1,7 @@
 # BE6502
 [Ben Eater](https://eater.net/) has been a huge inspiration for many getting into building computers using basic electronic building blocks, his [videos](https://www.youtube.com/user/eaterbc) are truly excellent and it is no wonder he's often referred to as the Bob Ross of Breadboards! His latest project is [building a 6502 computer](https://eater.net/6502) on a breadboard, a video series that I'm sure will also inspire a lot of new users to the art of building stuff with the 6502! Check out the main [README](https://github.com/tebl/BE6502) for an overview of all the modules available to the BE6502 computer.
 
-!(screenshot)[BE6502SBC2.jpg]
+!(screenshot)[BE6502SBC2.png]
 
 ## Computer (SBC-module)
 This module specifically contains all of the modules that makes the BE6502 an actual computer, it has the CPU, RAM, ROM and a way of interacting with the world using the VIA-chip. Also described as an SBC-module which means that it is a *Single Board Computer* though I'm certainly a fan of building more things around it, I just look at it has giving the computer more tricks that it can use to both entertain and educate us at the same time.
